@@ -1,0 +1,27 @@
+.container {
+    wwidth: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+}
+
+.container div span {
+    margin-left: 20px;
+}
+
+.container img {
+    width: 20px;
+    margin-left: 25px;
+}
+
+.container span {
+    /* text-align: center; */
+}

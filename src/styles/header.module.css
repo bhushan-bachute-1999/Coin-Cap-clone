@@ -1,0 +1,27 @@
+.container {
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(123, 97, 255) 59.16%, skyblue);
+}
+
+.innerContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.innerContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer div span {
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}

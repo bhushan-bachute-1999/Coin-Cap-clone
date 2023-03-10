@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    background-color: white;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 70%;
+    margin: auto;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 80px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.logoContainer img {
+    width: 100px;
+    height: 50px;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+}
+
+.rightContainer img {
+    width: 28px;
+    height: 28px;
+}

@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: 250px;
+    padding: 20px 13% 20px 15%;
+    box-sizing: border-box;
+    background: linear-gradient(to-right, blue, blue);
+    background: linear-gradient(97.53deg, rgb(123, 97, 255) 59.16%, skyblue);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container>div {
+    width: 25%;
+}
+
+h5 {
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 10px;
+}
+
+.span {
+    color: white;
+    opacity: 0.5;
+}
+
+.ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.img {
+    width: 32px;
+    /* background-color: b; */
+}
+
+.playstore {
+    width: 150px;
+}
